@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*Shadow XMD 🔱[The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*"✅ Shadow XMD WhatsApp Bot successfully connected and running! Developed and maintained by Kavindu Iduwara. Stay tuned for updates and features. Your AI assistant is online now*\n\n*🤌 *Contact Me - 0764040298 😏*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/HRRkAxmbg2GGNWPfsX2Nfc*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://i.imghippo.com/files/BxGn9380Ec.png",
               },
               caption: sid,
             });
